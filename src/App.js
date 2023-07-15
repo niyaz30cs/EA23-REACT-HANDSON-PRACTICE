@@ -1,7 +1,8 @@
 import React from 'react'
 import "./App.css";
 // import Axios from './Axios';
-import Handson1 from './ReactHandson/Handson1';
+// import Handson1 from './ReactHandson/Handson1';
+import ControlledComponent from './Component/ControlledComponent';
 // import UseStateHook from './HooksComponent/UseStateHook'
 // import UseEffectHook from './HooksComponent/UseEffectHook';
 // import FetchData from './FetchData';
@@ -15,7 +16,8 @@ function App() {
       {/* <FetchData/> */}
       {/* <MyAxios/> */}
       {/* <Axios/> */}
-      <Handson1/>
+      {/* <Handson1/> */}
+      <ControlledComponent/>
 
     </div>
   )
