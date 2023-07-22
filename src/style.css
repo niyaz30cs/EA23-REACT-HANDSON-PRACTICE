@@ -1,0 +1,140 @@
+/* ParentComponent css */
+body
+{
+    background-image: linear-gradient(green,blue,red);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.wholePart
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.mainContainer
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: cyan;
+    width: 500px;
+    border-radius: 10px;
+}
+.inputArea
+{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.inputField
+{
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px;
+
+}
+.one
+{
+    margin-left: 50px;
+}
+.btn
+{
+    display: flex;
+    justify-content: center;
+}
+.buttonArea
+{
+    width: 150px;
+    height: 40px;
+    background-color: magenta;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin: 10px;
+}
+.buttonArea:hover
+{
+    background-color: green;
+}
+
+/* childComponent css */
+
+
+.childContainer
+{
+    width: 1100px;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: chartreuse;
+    /* justify-content: space-around; */
+}
+.ShowData
+{
+    width: 500px;
+    height: 70px;
+    border: 2px solid red;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: darkmagenta;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+}
+.childMainContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .mainContainer
+    {
+        width: 350px;
+    }
+    .inputArea
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .one
+    {
+        margin-left: 0px;
+    }
+    .childContainer
+    {
+        width: 350px;
+    }
+    .center
+    {
+        color: red;
+    }
+    .ShowData
+    {
+        width:300px;
+        min-height: 80px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: yellow;
+    }
+}
