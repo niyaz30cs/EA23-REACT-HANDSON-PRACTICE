@@ -7,6 +7,7 @@ import ContactUs from './ContactUs'
 function NavBar() {
   return (
     <>
+      
     <div className='navbar'>
       <NavLink to="/home" className="link" style={({isActive})=>{return isActive?{color:"red"}:{color:"black"}}}>Home</NavLink>
       <NavLink to="/student" className="link" style={({isActive})=>{return isActive?{color:"red"}:{color:"black"}}}>Student</NavLink>

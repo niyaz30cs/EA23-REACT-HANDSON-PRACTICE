@@ -1,9 +1,23 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
-import NavBar from './ReactHandson/Handson-3/NavBar';
+// import "./App.css";
+// import UseReducer2 from './HooksComponent/UseReducer2';
+import CombineFile from './ReactHandson/Handson-5/CombineFile';
+// import DataStore from './ContextApiSecondMethod/DataStore';
+// import Demo from './ContextApiSecondMethod/Demo';
+// import Sample from './ContextApiSecondMethod/Sample';
+// import UseReducer from './HooksComponent/UseReducer';
+// import { Provider } from 'react-redux';
+// import NumberCounter from './ReduxCode2/NumberCounter';
+// import store from './ReduxCode2/store';
+// import Counter from './Redux/Counter';
+// import store from './Redux/store';
+// import { BrowserRouter } from 'react-router-dom';
+// import NavbarMenu from './NaveBarMenu/NavbarMenu';
+// import LazyLoading from './LazyComponent/LazyLoading';
+// import HamburgerMenu from './HamBerGerBar/HamburgerMenu';
+// import NavBar from './ReactHandson/Handson-3/NavBar';
 // import "./style.css"
 // import HigherOrderComponent from './HOCProcess/HigherOrederComponent';
-// import "./App.css";
 // import NavBar from './NavBar/NavBar';
 // import ClickComponent1 from './HOCComponent/ClickComponent1';
 // import HoverComponent1 from './HOCComponent/HoverComponent1';
@@ -49,9 +63,27 @@ function App() {
       {/* <HoverComponent1/> */}
       {/* <Click/> */}
       {/* <Hover/> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
+      <NavbarMenu/>
+      </BrowserRouter> */}
+      {/* <BrowserRouter>
       <NavBar/>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      {/* <HamburgerMenu/> */}
+      {/* <LazyLoading/> */}
+      {/* <Provider store={store}>
+        <Counter/>
+      </Provider> */}
+      {/* <Provider store={store}>
+        <NumberCounter/>
+      </Provider> */}
+      {/* <DataStore>
+        <Demo/>
+        <Sample/>
+      </DataStore> */}
+      {/* <UseReducer/> */}
+      {/* <UseReducer2/> */}
+      <CombineFile/>
     </div>
   )
 }

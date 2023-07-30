@@ -36,6 +36,13 @@ body
     display: flex;
     justify-content: center;
 }
+.TableRow
+{
+    background-color:darkorchid;
+    color: yellow;
+    font-size: 25px;
+    font-family: cursive;
+}
 .btn
 {
     background-color: blue;
@@ -52,3 +59,4 @@ body
     align-items: center;
     justify-content: space-around;
 }
+

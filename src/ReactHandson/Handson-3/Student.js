@@ -62,7 +62,7 @@ function Student() {
     </div>
     <div className='TableContainer'>
       <table border="1" className='table' cellSpacing="0">
-        <thead>
+        <thead className='TableRow'>
         <tr>
             <th>Name</th>
             <th>Age</th> 
@@ -79,7 +79,7 @@ function Student() {
                     <td>{item.Age}</td>
                     <td>{item.Course}</td>
                     <td>{item.Batch}</td>
-                    <td><Link>{item.Change}</Link></td>
+                    <td><Link to="#">{item.Change}</Link></td>
                 </tr>
                 </tbody>
             )
